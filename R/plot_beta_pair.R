@@ -16,6 +16,10 @@ plot_beta_pair <- function(x, index.family= "sorensen" ){
   requireNamespace("tidyverse")
   requireNamespace("vegan")
   requireNamespace("lazyeval")
+  #devtools::use_package("tidyverse")
+  #devtools::use_package("forcats")
+  library(tidyverse)
+
 
   dist_plot<- function(rdf,
                        legend = TRUE,
