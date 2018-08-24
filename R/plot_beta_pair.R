@@ -11,7 +11,7 @@
 #'
 #'
 plot_beta_pair <- function(x, index.family= "sorensen" ){
-requireNamespace("magrittr")
+  requireNamespace("magrittr")
   requireNamespace("betapart")
   requireNamespace("tidyverse")
   requireNamespace("vegan")
@@ -23,7 +23,9 @@ requireNamespace("magrittr")
                        colours = c("white", "black"),
                        print_cor = FALSE,
                        colors) {
-
+    requireNamespace("magrittr")
+    requireNamespace("tidyverse")
+    requireNamespace("lazyeval")
     if (!missing(colors))
       colours <- colors
 
