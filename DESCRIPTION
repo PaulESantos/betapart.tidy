@@ -1,0 +1,30 @@
+Package: tidydiversity
+Type: Package
+Title: Tidy workflow for diversity analisys
+Version: 0.1.0
+Author: Paul Efren Santos Andrade <paulefrens@gmail.com>
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Function for tidy workflow with **dist** objects.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Import:
+    betapart,
+    magrittr,
+    dplyr,
+    corrr, 
+    vegan,
+    cowplot,
+    stats,
+    utils,
+RoxygenNote: 6.1.0
+Suggests: testthat,
+    betapart,
+    magrittr,
+    dplyr,
+    corrr, 
+    vegan,
+    cowplot,
+    stats,
+    utils
