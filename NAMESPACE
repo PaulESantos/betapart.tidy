@@ -1,2 +1,8 @@
 exportPattern("^[[:alpha:]]+")
 importFrom(magrittr,"%>%")
+importFrom(betapart,"betapart.core")
+importFrom(betapart,"betapart.core.abund")
+importFrom(betapart,"phylo.betapart.core")
+importFrom(betapart,"phylo.betapart.core")
+importFrom(betapart,"beta.pair")
+importFrom(vegan, "decostand")
