@@ -18,7 +18,7 @@ plot_beta_pair <- function(x, index.family= "sorensen" ){
   requireNamespace("lazyeval")
   #devtools::use_package("tidyverse")
   #devtools::use_package("forcats")
-  library(magrittr)
+
 
 
   dist_plot<- function(rdf,
