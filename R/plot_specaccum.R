@@ -29,9 +29,9 @@ plot_specaccum <- function(comm, method = "exact", permutations = 100){
   plot <- dplyr::data_frame(sites = df$sites,
                             richness = df$richness,
                             sd = df$sd) %>%
-    ggplot2::ggplot(aes(sites, richness))+
+    ggplot2::ggplot(ggplot2::aes(sites, richness))+
     ggplot2::geom_line(linetype = 1, size = .5, color = "red") +
-    ggplot2::geom_errorbar(aes(ymin = richness - 2 * sd,
+    ggplot2::geom_errorbar(ggplot2::aes(ymin = richness - 2 * sd,
                                ymax = richness + 2 * sd),
                            width = 0, size = 1)+
     ggplot2::geom_point(color = "red", size = 1.5)+
