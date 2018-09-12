@@ -20,6 +20,8 @@ Import:
     cowplot,
     stats,
     utils,
+    vegan,
+    reshape2
 Suggests: testthat,
     betapart,
     magrittr,
@@ -28,6 +30,7 @@ Suggests: testthat,
     vegan,
     cowplot,
     stats,
-    utils
+    utils,
+    reshape2
 Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate"))
 RoxygenNote: 6.1.0
