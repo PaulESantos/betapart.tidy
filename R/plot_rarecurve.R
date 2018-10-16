@@ -59,7 +59,8 @@ plot_rarecurve <-  function (comm, facet.var = "none")
     dat1 <- meta %>%
       dplyr::full_join(dat, by = "sites")%>%
       dplyr::group_by(name) %>%
-      dplyr::mutate(size = seq(1,length(sites), 1))
+      dplyr::mutate(size = seq(1,length(sites), 1)) %>%
+      dplyr::ungroup()
 
     output <- dat1  %>%
       ggplot2::ggplot(aes(size, species)) +

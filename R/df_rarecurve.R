@@ -52,4 +52,4 @@ df_rarecurve <- function(comm){
     dplyr::mutate(size = seq(1, length(sites), 1))
   return(output)
 }
-plot_rarecurve(dune)
+
