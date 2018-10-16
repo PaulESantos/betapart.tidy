@@ -14,4 +14,4 @@ importFrom(betapart,"phylo.betapart.core")
 importFrom(betapart,"beta.pair")
 importFrom(vegan, "decostand")
 importFrom(reshape2, "melt")
-importFrom(vegan, "dune")
+
