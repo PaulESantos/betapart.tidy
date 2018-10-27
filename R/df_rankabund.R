@@ -35,7 +35,7 @@ df_rankabund <- function(comm, group = "none"){
   df <- comm %>%
     dplyr::as_data_frame() %>%
     dplyr::mutate(sites = name) %>%
-    dplyr::gather(species, abundance, -sites)
+    tidyr::gather(species, abundance, -sites)
 
 
   output <- df %>%
