@@ -1,11 +1,10 @@
-Package: betapart_tidy
+Package: betapart.tidy
 Type: Package
 Title: Tidy version of betapart(1.5.0)
 Version: 0.1.0
 Authors@R: person("Paul Efren","Santos Andrade", ,"paulefrens@gmail.com",c("aut", "cre"))
 Maintainer: Paul Efren Santos Andrade <paulefrens@gmail.com>
-Description: A tidy version of the functions that are part of the betapart package by Baselga et.al.
-The modification of the functions provides a tidy output, as data_frame.
+Description: A tidy version of the functions that are part of the betapart package by Baselga et.al. The modification of the functions provides a tidy output, as data_frame.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -32,4 +31,4 @@ Suggests: testthat,
     utils,
     reshape2
 Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace", "collate"))
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
