@@ -1,11 +1,11 @@
-Package: tidydiversity
+Package: betapart_tidy
 Type: Package
-Title: Tidy workflow for diversity analisys
+Title: Tidy version of betapart(1.5.0)
 Version: 0.1.0
 Authors@R: person("Paul Efren","Santos Andrade", ,"paulefrens@gmail.com",c("aut", "cre"))
 Maintainer: Paul Efren Santos Andrade <paulefrens@gmail.com>
-Description: Grupo de funciones modificadas para facilitar el trabajo con objetos tipo “dist”, 
-             propios de las matrices de disimilitud de los análisis de diversidad. 
+Description: A tidy version of the functions that are part of the betapart package by Baselga et.al.
+The modification of the functions provides a tidy output, as data_frame.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -17,7 +17,6 @@ Import:
     dplyr,
     corrr, 
     vegan,
-    cowplot,
     stats,
     utils,
     vegan,
